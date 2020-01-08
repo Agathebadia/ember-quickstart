@@ -41,3 +41,21 @@ body {
   background: url('../../public/assets/images/teaching-tomster.png');
 }
 
+.menu {
+  background-color: #e46855;
+  display: flex;
+  align-items: center;
+}
+
+.menu h1 {
+  padding-left: 10px;
+}
+
+.links {
+  display: flex;
+}
+
+.link {
+  padding: 5px 30px 5px 30px;
+}
+
