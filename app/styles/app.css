@@ -84,14 +84,29 @@ address {
 }
 
 .rental {
-  max-width: 70%;
+  max-width: 80%;
   padding: 15px 10px 15px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F6F6F6;
+}
+
+.container .details {
+  min-width: 400px;
+}
+
+.rental image {
+}
+
+.rental img {
+  border-radius: 4px;
+  text-align: left;
 }
 
 .owner-type {
   display: flex;
   justify-content: space-between;
-
 }
 
 .location-bedrooms {
@@ -99,3 +114,6 @@ address {
   justify-content: space-between;
 }
 
+.rental span {
+  font-weight: bold;
+}
