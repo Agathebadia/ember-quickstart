@@ -83,3 +83,19 @@ address {
   background-color: #186ba5;
 }
 
+.rental {
+  max-width: 70%;
+  padding: 15px 10px 15px 10px;
+}
+
+.owner-type {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.location-bedrooms {
+  display: flex;
+  justify-content: space-between;
+}
+
